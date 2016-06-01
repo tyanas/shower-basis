@@ -1,0 +1,32 @@
+{
+  "name": "shower-basis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basisjs": "git://github.com/basisjs/basisjs",
+    "shower": "^2.1.1"
+  },
+  "devDependencies": {
+    "basisjs-tools-instrumenter": "^1.0.3"
+  },
+  "basisjsConfig": {
+    "server": {
+      "port": 8125
+    },
+    "plugins": [
+      {
+        "name": "basisjs-tools-instrumenter",
+        "target": "server",
+        "ignore": [
+          "node_modules/**"
+        ]
+      }
+    ]
+  }
+}

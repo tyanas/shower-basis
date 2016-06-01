@@ -6,7 +6,6 @@ basis.ready(function(){
     l10n.setCultureList('en-US ru-RU');
     l10n.setCulture('ru-RU');
 
-
     new Node({
         container: document.body,
         template: resource('./template/view.tmpl'),

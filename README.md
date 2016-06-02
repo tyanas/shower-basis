@@ -1,6 +1,6 @@
 # shower-basis
 
-Edit shower with basis.js
+Edit [shower](https://github.com/shower/shower) with [basis.js](https://github.com/basisjs/basisjs)
 
 # start
 

@@ -1,7 +1,7 @@
 basis.ready(function(){
     var Node = basis.require('basis.ui').Node;
     var Slide = basis.require('./slide.js');
-    var config = basis.require('./ribbon-theme-example.js');
+    var config = basis.require('./ribbon/config.js');
     var l10n = basis.require('basis.l10n');
 
     l10n.setCultureList('en-US ru-RU');

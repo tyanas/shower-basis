@@ -1,0 +1,9 @@
+<b:define name="shout" type="bool"/>
+<b:define name="shrink" type="bool"/>
+
+<section class="slide {grid}" id="{id}">
+  <h2{headerRef} b:show="{showHeader}" class="{shout} {shrink}">{header}<!--{customHeader}--></h2>
+  {body}
+  <img b:show="{coverImg}" src="{coverImg}" alt="" class="cover"/>
+  <!--{custom}-->
+</section>

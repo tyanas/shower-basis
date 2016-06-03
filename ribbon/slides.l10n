@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "type": {
+      "text.body": "markup",
+      "text2.body": "markup",
+      "loud.header": "markup"
+    }
+  },
+  "en-US": {
+    "cover": {
+      "header": "Shower Presentation Engine"
+    },
+    "simpleList": {
+      "header": "Shower key features"
+    },
+    "text": {
+      "header": "Plain text on your slides",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur <a href=\"#4\">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>"
+    },
+    "text2": {
+      "header": "Two columns if you like",
+      "body": "<p class=\"double\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>"
+    },
+    "lists": {
+      "header": "All kind of lists"
+    },
+    "citation": {
+      "header": "Serious citations"
+    },
+    "code": {
+      "header": "Code samples"
+    },
+    "table": {
+      "header": "Even tables"
+    },
+    "picture": {
+      "header": "Pictures"
+    },
+    "loud": {
+      "header": "You can even shout this way"
+    },
+    "nav": {
+      "header": "Inner navigation"
+    },
+    "grid": {
+      "header": "All nicely aligned to grid"
+    },
+    "seemore": {
+      "header": "See more on GitHub"
+    }
+  }
+}

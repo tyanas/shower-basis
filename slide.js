@@ -12,7 +12,10 @@ module.exports = Node.subclass({
     body: '',
     coverImg: null,
     shout: false,
+    white: false,
+    black: false,
     shrink: false,
+    grow: false,
     grid: false,
     binding: {
         id: 'id',
@@ -21,14 +24,19 @@ module.exports = Node.subclass({
         body: 'body',
         coverImg: 'coverImg',
         shout: 'shout',
+        grow: 'grow',
         shrink: 'shrink',
         grid: 'grid',
+        white: 'white',
+        black: 'black',
         key: 'key',
         customHeader: 'satellite:',
-        custom: 'satellite:'
+        custom: 'satellite:',
+        comments: 'comments'
     },
     init: function() {
         Node.prototype.init.call(this);
+        console.log(this.customTmpl);
         if (this.customTmpl) {
             this.setSatellite('custom', new Node({
                 template: this.customTmpl

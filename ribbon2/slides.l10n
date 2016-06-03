@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "type": {
+      "inlineElements.body": "markup",
+      "inlineElements.comments": "markup",
+      "paragraphColumns.body": "markup",
+      "linkedShout.header": "markup",
+      "multilineShout.header": "markup"
+    }
+  },
+  "en-US": {
+    "slideHeader": {
+      "header": "Slide Header"
+    },
+    "inlineElements": {
+      "header": "Inline Elements",
+      "body": "<p>Retro meh brunch <a href=\"\">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag, <mark>leggings</mark> skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical <code>&lt;paleo&gt;</code> you probably haven’t heard of.</p>",
+      "comments": "<p>Retro meh brunch <a href=\"\">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag, <mark>leggings</mark> skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical <code>&lt;paleo&gt;</code> you probably haven’t heard of.</p>"
+    },
+    "quotes": {
+      "header": "Quotes"
+    },
+    "nestedLists": {
+      "header": "Nested Lists"
+    },
+    "blockLists": {
+      "header": "Block Lists"
+    },
+    "mixedBullets": {
+      "header": "Latin and Cyrillic List Bullets"
+    },
+    "paragraphColumns": {
+      "header": "Paragraph Columns",
+      "body": "<p class=\"double\">Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch American Apparel letterpress. Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid American Apparel four loko quinoa. Echo Park 8-bit sustainable.</p>"
+    },
+    "listColumns": {
+      "header": "List Columns"
+    },
+    "simpleTable": {
+      "header": "Simple Table"
+    },
+    "stripedTable": {
+      "header": "Striped Table"
+    },
+    "plainCodeListing": {
+      "header": "Plain Code Listing"
+    },
+    "numberedCodeListing": {
+      "header": "Numbered Code Listing"
+    },
+    "highlightedCodeLines": {
+      "header": "Highlighted Code Lines"
+    },
+    "hiddenCodeSteps": {
+      "header": "Hidden Code Steps"
+    },
+    "highlightedCodeSteps": {
+      "header": "Highlighted Code Steps"
+    },
+    "gridSlide": {
+      "header": "Grid Slide"
+    },
+    "whiteSlide": {
+      "header": "White Slide"
+    },
+    "blackSlide": {
+      "header": "Black Slide"
+    },
+    "shout": {
+      "header": "Shout"
+    },
+    "multilineShout": {
+      "header": "Multiline<br/>Shout"
+    },
+    "linkedShout": {
+      "header": "<a href=\"\">Linked Shout</a>"
+    },
+    "growingShout": {
+      "header": "Growing Shout"
+    },
+    "shrinkingShout": {
+      "header": "Shrinking Shout"
+    },
+    "timer": {
+      "header": "Timer"
+    },
+    "listNavigation": {
+      "header": "List Navigation"
+    }
+  }
+}

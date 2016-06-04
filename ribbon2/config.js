@@ -1,6 +1,7 @@
 var dict = require('basis.l10n').dictionary('./ribbon2/slides.l10n');
 
-var slides0 = ['slideHeader',
+var slides0 = [
+    'slideHeader',
     'inlineElements',
     'quotes',
     'nestedLists',
@@ -41,7 +42,7 @@ slides0.forEach(function(key) {
         header: dict.token(key).token('header'),
         customTmpl: resource('./template/' + key + '.tmpl')
     };
-})
+});
 
 // customize certain slides
 

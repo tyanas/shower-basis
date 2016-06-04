@@ -1,6 +1,7 @@
 var Node = basis.require('basis.ui').Node;
 var templates = basis.require('basis.template').define('app', {
-    slide: resource('./template/slide.tmpl')
+    slide: resource('./template/slide.tmpl'),
+    slideMin: resource('./template/slide-min.tmpl')
 });
 
 module.exports = Node.subclass({
@@ -10,8 +11,9 @@ module.exports = Node.subclass({
     showHeader: true,
     header: null,
     body: '',
-    coverImg: null,
+    coverImg: undefined,
     shout: false,
+    zero: false,
     white: false,
     black: false,
     shrink: false,
@@ -27,6 +29,7 @@ module.exports = Node.subclass({
         grow: 'grow',
         shrink: 'shrink',
         grid: 'grid',
+        zero: 'zero',
         white: 'white',
         black: 'black',
         key: 'key',
@@ -39,7 +42,7 @@ module.exports = Node.subclass({
         console.log(this.customTmpl);
         if (this.customTmpl) {
             this.setSatellite('custom', new Node({
-                template: this.customTmpl
+                template: resource(this.customTmpl)
             }));
         }
         if (this.customHeader) {

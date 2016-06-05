@@ -1,5 +1,4 @@
-var Node = basis.require('basis.ui').Node;
-var Slide = basis.require('./slide.js');
+var Slides = basis.require('./slides.js');
 var config = basis.require('./mrt/config.js');
 // var config = basis.require('./ribbon/config.js');
 // var config = basis.require('./ribbon2/config.js');
@@ -13,18 +12,9 @@ require('./mrt/template/user.css').startUse();
 
 basis.ready(function(){
     setTimeout(function(){
-        var slides = new Node({
-            container: document.body,
-            template: resource('./template/view.tmpl'),
-            showProgressBar: true,
-            binding: {
-                showProgressBar: 'showProgressBar'
-            },
-            childClass: Slide,
-            childNodes: config.value
+        var slides = new Slides({
+            slidesSrc: './mrt/slides.json',
+            l10nSrc: './mrt/slides.l10n'
         });
-        config.attach(function(value) {
-            slides.setChildNodes(value);
-        })
     }, 10);
 });
